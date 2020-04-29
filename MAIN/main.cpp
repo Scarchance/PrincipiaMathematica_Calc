@@ -16,22 +16,23 @@ int main () {
 
         cout << "\n" << "Enter 1st number:";
         cin >> y;
-        cout << "Enter 2st number:";
+        cout << "Enter 2nd number:";
         cin >> q;
-        cout << "Select one of the following operations: add(+), Substract(-), Multiply(*), Divide (/) or q to Quit : ";
 
+        cout << "Select one of the following operations: add(+), Substract(-), Multiply(*), Divide (/) or q to Quit : ";
         char input;
         cin >> input;
+
         if (input == '+') {
-            cout << y + q;
+            cout << y + q << "\n";
         } else if (input == '-') {
-            cout << y - q;
+            cout << y - q << "\n";
         } else if (input == '/') {
-            cout << y / q;
+            cout << y / q << "\n";
         } else if (input == '*') {
-            cout << y * q;
+            cout << y * q << "\n";
         } else if (input == 'q') {
-            cout << "Exiting! Thanks for using our calculator!"
+            cout << "Exiting! Thanks for using our calculator!";
             t=1;
         } else {
             cout << "Wrong/ unsupported operation, try again";
