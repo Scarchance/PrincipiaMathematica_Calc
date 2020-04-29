@@ -18,18 +18,18 @@ int main () {
     if (input=='+') {
     cout << y+q;
     }
-    if (input=='-'){
+    else if (input=='-'){
     cout<< y-q;
     }
-    if (input=='/') {
+    else if (input=='/') {
         cout << y/q;
     }
-    if (input=='*'){
+    else if (input=='*'){
         cout<< y*q;
     }
 
-     else {
-         cout << "\n" << "READY FOR NEXT OPERATION";
+    else {
+        cout << "\n" << "READY FOR NEXT OPERATION";
         t = 0;
         while (t == 0) {
             cout << "\n" << "Enter 1st number:";
