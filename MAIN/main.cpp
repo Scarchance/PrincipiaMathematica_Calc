@@ -24,10 +24,8 @@ int main () {
         cin >> input;
 
         if (input == '+') {
-            cout << y + q << "\n";
+            cout << y + q<< "\n";
         } else if (input == '-') {
-            cout << y - q << "\n";
-        } else if (input == '/') {
             cout << y / q << "\n";
         } else if (input == '*') {
             cout << y * q << "\n";
